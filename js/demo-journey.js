@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Kitchen remodel, bathroom remodel, and additions across Upland and the Inland Empire. Fixed itemised quotes before we start, Julio as your named lead on site, and a twelve-month workmanship guarantee when we leave.';
+            'Kitchen and bath remodels, additions, and whole-home remodels. Across Upland and the Inland Empire. Julio looks at the job first and puts the price in writing.';
         }
       }
     },
@@ -65,7 +65,7 @@
       id: 'h1',
       apply: function () {
         if (heroH) {
-          heroH.innerHTML = 'Kitchens and baths,<br>quoted <em>before</em> we start.';
+          heroH.innerHTML = 'Upland kitchens, baths,<br>and additions,<br>priced <em>first.</em>';
         }
       }
     },
@@ -73,7 +73,7 @@
       id: 'service',
       apply: function () {
         if (serviceFirst) {
-          serviceFirst.textContent = 'Kitchen remodel (written programme)';
+          serviceFirst.textContent = 'Kitchen remodels (written price)';
         }
       }
     }
@@ -85,7 +85,7 @@
     /* mode: draft | updated */
     if (!barSub) return;
     if (mode === 'updated') {
-      barSub.textContent = 'Draft updated. More changes? Or claim it.';
+      barSub.textContent = 'Draft for Julio at JC Construction. Claim it, preview the rest of the journey, or request a change.';
     } else {
       barSub.textContent = 'Draft for Julio at JC Construction. Claim it, preview the rest of the journey, or request a change.';
     }
