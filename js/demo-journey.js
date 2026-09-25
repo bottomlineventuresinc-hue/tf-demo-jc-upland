@@ -57,7 +57,7 @@
       apply: function () {
         if (heroLede) {
           heroLede.textContent =
-            'Kitchen and bath remodels, additions, and whole-home remodels. Across Upland and the Inland Empire. Julio looks at the job first and puts the price in writing.';
+            'Kitchen and bath remodels, additions, and whole-home remodels in Upland. Julio looks at the job first and puts the price in writing.';
         }
       }
     },
